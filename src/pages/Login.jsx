@@ -27,7 +27,6 @@ const Login = () => {
     <div className="relative h-screen w-screen flex items-center justify-center">
       <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-green-800 opacity-50 blur-lg"></div>
       <div className="flex flex-col items-center mb-8">
-        <img src={currentLogo} alt="Logo" className="h-16 mb-4" />
         <div className="relative w-full max-w-md p-8 space-y-8 bg-white/30 backdrop-blur-md rounded-lg shadow-md">
           <div>
             <label htmlFor="username" className="block text-sm font-medium text-gray-700">
