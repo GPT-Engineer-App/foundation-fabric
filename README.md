@@ -1,38 +1,51 @@
-# foundation-fabric
+# Bare-Bones Web Application
 
-Create a bare-bones application that I can modify and build on.
+This is a minimal web application setup with basic HTML structure, simple CSS for styling, and a basic JavaScript setup. Use this as a starting point to build your features.
 
-## Collaborate with GPT Engineer
+## Instructions
 
-This is a [gptengineer.app](https://gptengineer.app)-synced repository 🌟🤖
+### Running the Application
 
-Changes made via gptengineer.app will be committed to this repo.
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
 
-If you clone this repo and push changes, you will have them reflected in the GPT Engineer UI.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Tech stack
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-This project is built with React with shadcn-ui and Tailwind CSS.
+4. Open your browser and navigate to `http://localhost:3000` to see the application.
 
-- Vite
-- React
-- shadcn/ui
-- Tailwind CSS
+### Modifying the Application
 
-## Setup
+- The main entry point of the application is `src/pages/Index.jsx`.
+- You can add new components in the `src/components` directory and import them into `Index.jsx`.
+- Styling is done using Tailwind CSS. You can modify the styles in `src/index.css`.
 
-```sh
-git clone https://github.com/GPT-Engineer-App/foundation-fabric.git
-cd foundation-fabric
-npm i
+### Building for Production
+
+To build the application for production, run:
+```bash
+npm run build
 ```
 
-```sh
-npm run dev
+The output will be in the `dist` directory.
+
+### Linting
+
+To lint the code, run:
+```bash
+npm run lint
 ```
 
-This will run a dev server with auto reloading and an instant preview.
+## License
 
-## Requirements
-
-- Node.js & npm - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+This project is licensed under the MIT License.
