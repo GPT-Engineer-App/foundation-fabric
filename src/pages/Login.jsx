@@ -24,8 +24,9 @@ const Login = () => {
   }, []);
 
   return (
-    <div className="h-screen w-screen flex items-center justify-center">
-      <div className="w-full max-w-md p-8 space-y-8 bg-white/30 backdrop-blur-md rounded-lg shadow-md">
+    <div className="relative h-screen w-screen flex items-center justify-center">
+      <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-green-800 opacity-50 blur-lg"></div>
+      <div className="relative w-full max-w-md p-8 space-y-8 bg-white/30 backdrop-blur-md rounded-lg shadow-md">
         <div className="flex justify-center mb-4">
           <img src={currentLogo} alt="Logo" className="h-16" />
         </div>
