@@ -10,11 +10,11 @@ const Dashboard = () => {
   return (
     <div className="flex h-screen">
       {/* Section 1: Left Sidebar */}
-      <div className="w-1/6 h-full bg-gradient-to-r from-green-400 to-green-800 bg-opacity-50 backdrop-blur-md p-4">
+      <div className="w-1/6 h-full bg-white/30 backdrop-blur-md p-4">
         {menuItems.map((item, index) => (
           <div
             key={index}
-            className={`h-1/5 flex items-center justify-center cursor-pointer ${
+            className={`h-1/10 flex items-center justify-center cursor-pointer ${
               selectedMenu === index ? "bg-green-800" : ""
             }`}
             onClick={() => setSelectedMenu(index)}
