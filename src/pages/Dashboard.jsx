@@ -10,7 +10,7 @@ const Dashboard = () => {
   return (
     <div className="flex h-screen">
       {/* Section 1: Left Sidebar */}
-      <div className="w-1/6 h-full bg-white/30 backdrop-blur-md p-4">
+      <div className="w-1/6 h-full bg-white/30 backdrop-blur-md shadow-lg rounded-lg p-4">
         {menuItems.map((item, index) => (
           <div
             key={index}
